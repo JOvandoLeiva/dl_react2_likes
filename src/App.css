@@ -1,0 +1,20 @@
+h1.titulo-verde{
+  color: green;
+}
+
+.nav-custom{
+  background-color: green;
+
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card-custom {
+
+  flex: 1;
+  min-width: 30%; /* Ancho mínimo del 30% para evitar que las tarjetas sean demasiado pequeñas */
+}
