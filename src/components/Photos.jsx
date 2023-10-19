@@ -7,6 +7,7 @@ import Card from './Card';
 const CardComponent = () => {
   const [photos, setPhotos] = useState([]);
   const [loading, setLoading] = useState(true);
+  
 
   useEffect(() => {
     const fetchPhotos = async () => {

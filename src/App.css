@@ -18,3 +18,16 @@ h1.titulo-verde{
   flex: 1;
   min-width: 30%; /* Ancho mínimo del 30% para evitar que las tarjetas sean demasiado pequeñas */
 }
+
+.image-container {
+  position: relative;
+}
+
+.favorite-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: red; 
+  font-size: 24px;
+}
