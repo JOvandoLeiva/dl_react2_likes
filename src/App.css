@@ -16,7 +16,7 @@ h1.titulo-verde{
 .card-custom {
 
   flex: 1;
-  min-width: 30%; /* Ancho mínimo del 30% para evitar que las tarjetas sean demasiado pequeñas */
+  min-width: 30%; 
 }
 
 .image-container {
